@@ -1,0 +1,1064 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da43b8f9c6065fb42ba3c2d2355cfd67, type: 3}
+  m_Name: TD-0-9-1
+  m_EditorClassIdentifier: 
+  DialogueMode: 0
+  translationKey: 
+  DialogueName: 1
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  ShowDialoguePanel: 1
+  Variable:
+    Enabled: 0
+    BoolVariable: {fileID: 0}
+    Chapter: 0
+    Objective: 0
+    Flags: 
+    NextDialogueTrue: {fileID: 0}
+    NextIndexInDialogueTrue: 0
+    NextDialogueFalse: {fileID: 0}
+    NextIndexInDialogueFalse: 0
+  DirectTo:
+    Enabled: 0
+    NewDialogue: {fileID: 0}
+    NewDialogueIndex: 0
+    NewTrialDialogue: {fileID: 0}
+  SceneTransition:
+    Enabled: 0
+    Scene: 
+    ToDark: 0
+    ToMenu: 0
+    AtEnd: {fileID: 0}
+    OnLoadNoDark: 0
+  IsInstant: 0
+  FlagTrigger:
+    Enabled: 0
+    Chapter: 0
+    Objective: 0
+    Flags: 
+  EndVidEnabled: 0
+  EndVideo: {fileID: 0}
+  ClearLock: 0
+  Speakers: {fileID: 11400000, guid: e719e2033a0c18b4e879f6a91069b542, type: 2}
+  VFXDB: {fileID: 0}
+  Lines:
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: "I\u2019ve got it. The killer was hiding in the back of the closet."
+    VoiceSFX: event:/VO/CH0/TRIAL/0342_Damon_IveGotIt
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: bfaae39c890aead4ea879996aac5042e, type: 2}
+      Name: 2b
+    ExpressionNumber: 5
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 92
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: "If he was pressed up against the furthest shelf and facing the entrance,
+      there\u2019d be a diagonal path between him and his victim. "
+    VoiceSFX: event:/VO/CH0/TRIAL/0343_Damon_IfHeWas
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents:
+    - id: 0
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 1
+    vfxIdx: 0
+    camAnimIdx: 10
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: "I say diagonal, because that\u2019s the only way he could make a direct
+      charge forward. "
+    VoiceSFX: event:/VO/CH0/TRIAL/0344_Damon_ISayDiagonal
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 10
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: "Also, when the victim entered the room she would have been standing with
+      her back to the hallway\u2014right outside the killer\u2019s range. "
+    VoiceSFX: event:/VO/CH0/TRIAL/0345_Damon_AlsoWhenThe
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 10
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: "That\u2019s why the stab wounds were only made to her chest. "
+    VoiceSFX: event:/VO/CH0/TRIAL/0346_Damon_ThatsWhyThe
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 10
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: eba3727ff1796184ba953a83e5af7232, type: 2}
+    SpeakerNumber: 16
+    Text: "...Creating the crime scene we found! Great job guys, we\u2019re actually
+      doing this!"
+    VoiceSFX: event:/VO/CH0/TRIAL/0347_Cassidy_CreatingTheCrime
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 1f2ca3b00f1a4a541a3f3aa227ee4f11, type: 2}
+      Name: 8a
+    ExpressionNumber: 17
+    AliasNumber: 0
+    DiaEvents:
+    - id: 1
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 1
+    vfxIdx: 0
+    camAnimIdx: 19
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: ef2ca6b0db8aba343a6f31061eaca40b, type: 2}
+    SpeakerNumber: 8
+    Text: "That was the last mystery, right? We must\u2019ve put everything together
+      now."
+    VoiceSFX: event:/VO/CH0/TRIAL/0348_Desmond_ThatWasThe
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 1ec0c6565ecc35641a39d05b372cd07d, type: 2}
+      Name: 8b
+    ExpressionNumber: 17
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 1
+    Music: Null
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 33
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 6510ad5c649a3d340864068e33ad3b9e, type: 2}
+    SpeakerNumber: 3
+    Text: "Even if it\u2019s all fake, I feel really bad for this victim\u2026"
+    VoiceSFX: event:/VO/CH0/TRIAL/0349_Eloise_EvenIfIts
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 47eee4dfb616f0846a2bab3239739357, type: 2}
+      Name: 13a
+    ExpressionNumber: 25
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 42
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 058afdf5a965adb4a8c335ab03eb8cfd, type: 2}
+    SpeakerNumber: 9
+    Text: "It\u2019s an ugly sight, but she\u2019s no victim."
+    VoiceSFX: event:/VO/CH0/TRIAL/0350_Wenona_ItsAnUgly
+    EnvSFX: 
+    SFX:
+    - event:/SFX/VO Bang/Idea 1
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: f05ff7ad257924e40a518122030577d8, type: 2}
+      Name: 3a
+    ExpressionNumber: 7
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 7
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 6510ad5c649a3d340864068e33ad3b9e, type: 2}
+    SpeakerNumber: 3
+    Text: Huh?
+    VoiceSFX: event:/VO/CH0/TRIAL/0351_Eloise_Huh
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 84deebcd732bddd4381ccf307509bdd8, type: 2}
+      Name: 13b
+    ExpressionNumber: 26
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 1
+    Music: event:/MUSIC/Daily Life/Tangled Web
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 4
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 058afdf5a965adb4a8c335ab03eb8cfd, type: 2}
+    SpeakerNumber: 9
+    Text: Well, technically she is, but...
+    VoiceSFX: event:/VO/CH0/TRIAL/0352_Wenona_WellTechnicallyShe
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: f0aecde024065f34698a2e4f4a3a7b48, type: 2}
+      Name: 3b
+    ExpressionNumber: 8
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 69
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 058afdf5a965adb4a8c335ab03eb8cfd, type: 2}
+    SpeakerNumber: 9
+    Text: "Let\u2019s be real: the girl was carrying a gun. "
+    VoiceSFX: event:/VO/CH0/TRIAL/0353_Wenona_LetsBeReal
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 7cac3f8ba54e02b4aa38e48989dbebbe, type: 2}
+      Name: 6a
+    ExpressionNumber: 12
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 89
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 058afdf5a965adb4a8c335ab03eb8cfd, type: 2}
+    SpeakerNumber: 9
+    Text: "She probably provoked the killer, and they killed her in <gradient=\"HitText\">self-defence</gradient>.
+      It\u2019s a clear-cut case of the hunter becoming the hunted, no?"
+    VoiceSFX: event:/VO/CH0/TRIAL/0354_Wenona_SheProbablyProvoked
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 10
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: b6220100b3140cb48b24fbfe43274302, type: 2}
+    SpeakerNumber: 2
+    Text: "\u2026That\u2019s no excuse."
+    VoiceSFX: event:/VO/CH0/TRIAL/0355_Wolfgang_ThatsNoExcuse
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 458715211bf8bfa4e9dd03ccc5c37019, type: 2}
+      Name: 2f
+    ExpressionNumber: 8
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 7
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 058afdf5a965adb4a8c335ab03eb8cfd, type: 2}
+    SpeakerNumber: 9
+    Text: What?
+    VoiceSFX: event:/VO/CH0/TRIAL/0356_Wenona_What
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 2c150dbdd5087ad4fbb0ee781790818d, type: 2}
+      Name: 11a
+    ExpressionNumber: 26
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 4
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: b6220100b3140cb48b24fbfe43274302, type: 2}
+    SpeakerNumber: 2
+    Text: "There\u2019s no justifying murder."
+    VoiceSFX: event:/VO/CH0/TRIAL/0357_Wolfgang_TheresNoJustifying
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 2d05bb88171a39940ae4a05e22de18c0, type: 2}
+      Name: 11b
+    ExpressionNumber: 29
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 58
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: b6220100b3140cb48b24fbfe43274302, type: 2}
+    SpeakerNumber: 2
+    Text: Killing a woman...is the worst thing a man could do.
+    VoiceSFX: event:/VO/CH0/TRIAL/0358_Wolfgang_KillingAWomanis-imported
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 10
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: ab955ba7d4962a84fa866df73d40ebba, type: 2}
+    SpeakerNumber: 6
+    Text: "You\u2019re emanating a sizable amount of emotional tension. Are you okay? "
+    VoiceSFX: event:/VO/CH0/TRIAL/0359_Toshiko_YoureEmanatingA
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 5d75e2ff9923ea14c932bff4006bad7a, type: 2}
+      Name: 7a
+    ExpressionNumber: 14
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 38
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: b6220100b3140cb48b24fbfe43274302, type: 2}
+    SpeakerNumber: 2
+    Text: "There\u2019s no excuse. There never *was* an excuse."
+    VoiceSFX: event:/VO/CH0/TRIAL/0360_Wolfgang_TheresNoExcuse
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 1
+    Music: Null
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 79
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: b6220100b3140cb48b24fbfe43274302, type: 2}
+    SpeakerNumber: 2
+    Text: "Twenty-eight stab wounds! No girl \u2014 no person \u2014 should ever
+      suffer Cara\u2019s fate!"
+    VoiceSFX: event:/VO/CH0/TRIAL/0361_Wolfgang_StabWounds
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 4984c0387996af94cbc4bf23a302d5ee, type: 2}
+      Name: 2d
+    ExpressionNumber: 6
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 1
+    Music: event:/MUSIC/Daily Life/Looming Trial
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 13
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 485256fc1f844434ba3fee97f3e7ec6f, type: 2}
+    SpeakerNumber: 1
+    Text: "Wait, who\u2019s Cara?"
+    VoiceSFX: event:/VO/CH0/TRIAL/0362_Jett_WaitWhosCara
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 389aa81b54a418548b1a5c5a4195676d, type: 2}
+      Name: 10a
+    ExpressionNumber: 23
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 35
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: b6220100b3140cb48b24fbfe43274302, type: 2}
+    SpeakerNumber: 2
+    Text: "It was the victim\u2019s name! Didn\u2019t anyone read the tablet!?"
+    VoiceSFX: event:/VO/CH0/TRIAL/0363_Wolfgang_ItWasThe
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 53b6e27b2d7d10d49bc9b44ad830c965, type: 2}
+      Name: 6b
+    ExpressionNumber: 16
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 15
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: ef2ca6b0db8aba343a6f31061eaca40b, type: 2}
+    SpeakerNumber: 8
+    Text: "I-I agree with you dude, but you don\u2019t have to shout out your point."
+    VoiceSFX: event:/VO/CH0/TRIAL/0364_Desmond_IIAgreeWith
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: c22bd1367f588ff4795b83251ded5bbe, type: 2}
+      Name: 13a
+    ExpressionNumber: 24
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 17
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 959dbba31a897f244812bbffb20fd24a, type: 2}
+    SpeakerNumber: 15
+    Text: "Oy, what\u2019s all this about? We\u2019ve figured out the case, stop
+      trying to drag it on!"
+    VoiceSFX: event:/VO/CH0/TRIAL/0365_Grace_OyWhatsAll
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 27b3fd5f000b6254894ddddac95b792b, type: 2}
+      Name: 10a
+    ExpressionNumber: 30
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 6
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: b6220100b3140cb48b24fbfe43274302, type: 2}
+    SpeakerNumber: 2
+    Text: "No. We\u2019re not finished here."
+    VoiceSFX: event:/VO/CH0/TRIAL/0366_Wolfgang_NoWereNot
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 4984c0387996af94cbc4bf23a302d5ee, type: 2}
+      Name: 2d
+    ExpressionNumber: 6
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 51
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  skip: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: CGDisplay, ns: DREditor.Dialogues.Events, asm: DREditor}
+      data:
+        SCGValue:
+          CG: {fileID: 21300000, guid: e6170c5b0eccdf948b5b804e1b28dd9b, type: 3}
+          transitionInstant: 0
+          eventName: 
+          ScreenFadeOut: 0
+          toDeadly: 0
+          prefab: {fileID: 0}
+          playOnly: 0
+    00000001:
+      type: {class: CGDisplay, ns: DREditor.Dialogues.Events, asm: DREditor}
+      data:
+        SCGValue:
+          CG: {fileID: 0}
+          transitionInstant: 0
+          eventName: 
+          ScreenFadeOut: 0
+          toDeadly: 0
+          prefab: {fileID: 0}
+          playOnly: 0

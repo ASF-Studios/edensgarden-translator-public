@@ -1,0 +1,813 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3696ba1569766a8489015c30a74c1f95, type: 3}
+  m_Name: D_Ch0_2DTrial_After_5
+  m_EditorClassIdentifier: 
+  DialogueMode: 0
+  translationKey: 
+  DialogueName: 6
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  ShowDialoguePanel: 1
+  Variable:
+    Enabled: 0
+    BoolVariable: {fileID: 0}
+    Chapter: 0
+    Objective: 0
+    Flags: 
+    NextDialogueTrue: {fileID: 0}
+    NextIndexInDialogueTrue: 0
+    NextDialogueFalse: {fileID: 0}
+    NextIndexInDialogueFalse: 0
+  DirectTo:
+    Enabled: 1
+    NewDialogue: {fileID: 11400000, guid: ff0cac44cdb17584b8fe71bc63dc0c99, type: 2}
+    NewDialogueIndex: 0
+    NewTrialDialogue: {fileID: 0}
+  SceneTransition:
+    Enabled: 0
+    Scene: 
+    ToDark: 0
+    ToMenu: 0
+    AtEnd: {fileID: 0}
+    OnLoadNoDark: 0
+  IsInstant: 0
+  FlagTrigger:
+    Enabled: 0
+    Chapter: 0
+    Objective: 0
+    Flags: 
+  EndVidEnabled: 0
+  EndVideo: {fileID: 0}
+  ClearLock: 0
+  Speakers: {fileID: 11400000, guid: e719e2033a0c18b4e879f6a91069b542, type: 2}
+  VFXDB: {fileID: 0}
+  UnlockPause: 0
+  UnlockPauseOption: 0
+  PauseOptionNum: 0
+  PauseOptionTo: 1
+  Lines:
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 12b1ac40daedf0d408830a975c54a241, type: 2}
+    SpeakerNumber: 5
+    Text: '*BANG!*'
+    VoiceSFX: event:/SFX/Scene/Chapter 0/Gunshot Mara
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents:
+    - id: 0
+    MusicChange: 1
+    Music: Null
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 1
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: $The sound of a gunshot echoed in our ears...
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: a64652adc1acf7c439f5e80935380539, type: 2}
+      Name: 3d
+    ExpressionNumber: 10
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 1
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 1
+    CharToPanNum: 15
+    CharToPan: {fileID: 11400000, guid: 959dbba31a897f244812bbffb20fd24a, type: 2}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 959dbba31a897f244812bbffb20fd24a, type: 2}
+    SpeakerNumber: 15
+    Text: ...
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: a3426282aa82e724a9095650406433b5, type: 2}
+      Name: 4d
+    ExpressionNumber: 12
+    AliasNumber: 0
+    DiaEvents:
+    - id: 1
+    MusicChange: 1
+    Music: event:/MUSIC/Daily Life/Fractured Mind of the Viceroy
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 1
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: '$Grace released the man from her grip. '
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: a7b4e8b3a8c606e44bde4c449851fcfd, type: 2}
+      Name: 3b
+    ExpressionNumber: 8
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: $Speechless, she moved her hand to her cheek, which had been nicked by
+      the stray bullet.
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 156b1a764e321fe428713561330809e2, type: 2}
+    SpeakerNumber: 17
+    Text: ...
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 1
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 1
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: $We all looked in the direction the shot came from.
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: f2dc0c7ebc3cae446be6cb716d12f075, type: 2}
+      Name: 5b
+    ExpressionNumber: 13
+    AliasNumber: 0
+    DiaEvents:
+    - id: 2
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 1
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: $The shooter stood silently by the pillar, a trail of smoke rising from
+      the mouth of her rifle.
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 39b26030d7718eb47a402019e7f1e381, type: 2}
+      Name: 3c
+    ExpressionNumber: 9
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: '$Her mask... '
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: a7b4e8b3a8c606e44bde4c449851fcfd, type: 2}
+      Name: 3b
+    ExpressionNumber: 8
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: $The design was a panther instead of a goat...but it was clear that she
+      was working with *him*.
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: ef2ca6b0db8aba343a6f31061eaca40b, type: 2}
+    SpeakerNumber: 8
+    Text: Y-You shot at her!
+    VoiceSFX: event:/VO/GENERAL/Desmond/25_Yyou
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: c22bd1367f588ff4795b83251ded5bbe, type: 2}
+      Name: 13a
+    ExpressionNumber: 24
+    AliasNumber: 0
+    DiaEvents:
+    - id: 3
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 1
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: eba3727ff1796184ba953a83e5af7232, type: 2}
+    SpeakerNumber: 16
+    Text: This is getting out of hand, now there are two of them!
+    VoiceSFX: event:/VO/GENERAL/Cassidy/18_ForReal.alp
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: ae3b039f9697b36459e77a97a701f553, type: 2}
+      Name: 5a
+    ExpressionNumber: 9
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: $Everyone slowly backed away from Tozu, suddenly fearful for their lives.
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 4d28ecc3dd894244fb81da54f9bf1704, type: 2}
+    SpeakerNumber: 18
+    Text: '*Cough* '
+    VoiceSFX: event:/VO/GENERAL/Tozu/32b_Pained_Ngh
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: f5a0287ec94bb84468e2bbf755d3062d, type: 2}
+      Name: 14a
+    ExpressionNumber: 8
+    AliasNumber: 0
+    DiaEvents:
+    - id: 4
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 1
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 4d28ecc3dd894244fb81da54f9bf1704, type: 2}
+    SpeakerNumber: 18
+    Text: 'What a...what a shocking and...unnecessary display of violence... '
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 485256fc1f844434ba3fee97f3e7ec6f, type: 2}
+    SpeakerNumber: 1
+    Text: Ya think!?
+    VoiceSFX: event:/VO/GENERAL/Jett/17_YaThink
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 4d28ecc3dd894244fb81da54f9bf1704, type: 2}
+    SpeakerNumber: 18
+    Text: I was talking about the golfer woman.
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 12c3907be5a9567468df150e70cffc7d, type: 2}
+      Name: 14b
+    ExpressionNumber: 9
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 4d28ecc3dd894244fb81da54f9bf1704, type: 2}
+    SpeakerNumber: 18
+    Text: "*Cough* Well, now that you\u2019ve become acquainted with our enforcer,
+      <gradient=\"HitText\">Mara</gradient>... "
+    VoiceSFX: event:/VO/GENERAL/Tozu/32A_Ngh
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: f5a0287ec94bb84468e2bbf755d3062d, type: 2}
+      Name: 14a
+    ExpressionNumber: 8
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 4d28ecc3dd894244fb81da54f9bf1704, type: 2}
+    SpeakerNumber: 18
+    Text: If any of you kids...try to jeopardize the killing game, such as by attacking
+      me...
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 4d28ecc3dd894244fb81da54f9bf1704, type: 2}
+    SpeakerNumber: 18
+    Text: "...she\u2019ll be there to put an end to your shenanigans."
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: b6220100b3140cb48b24fbfe43274302, type: 2}
+    SpeakerNumber: 2
+    Text: Even though she misses her shots?
+    VoiceSFX: event:/VO/GENERAL/Wolfgang/10_PardonMe
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: caef23de2f0f7b343a2d5be662833514, type: 2}
+      Name: 11a
+    ExpressionNumber: 28
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 4d28ecc3dd894244fb81da54f9bf1704, type: 2}
+    SpeakerNumber: 18
+    Text: '...That was just a warning. '
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 12c3907be5a9567468df150e70cffc7d, type: 2}
+      Name: 14b
+    ExpressionNumber: 9
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  Choices: []
+  StartInvestigation:
+    Enabled: 0
+    NextObjective: 1
+    NewDialogue: {fileID: 0}
+  references:
+    version: 1
+    00000000:
+      type: {class: CGDisplay, ns: DREditor.Dialogues.Events, asm: DREditor}
+      data:
+        SCGValue:
+          CG: {fileID: 21300000, guid: fb2b10dcf2d2b9c43b64c276cb57b7fe, type: 3}
+          transitionInstant: 0
+          eventName: 
+          ScreenFadeOut: 0
+          toDeadly: 0
+          prefab: {fileID: 0}
+          playOnly: 0
+    00000001:
+      type: {class: CGDisplay, ns: DREditor.Dialogues.Events, asm: DREditor}
+      data:
+        SCGValue:
+          CG: {fileID: 0}
+          transitionInstant: 0
+          eventName: 
+          ScreenFadeOut: 0
+          toDeadly: 0
+          prefab: {fileID: 0}
+          playOnly: 0
+    00000002:
+      type: {class: VideoDisplay, ns: DREditor.Dialogues.Events, asm: DREditor}
+      data:
+        SVValue:
+          iniClip: {fileID: 0}
+          mainClip: {fileID: 32900000, guid: f948e0d4b1cf0ed4b9fa4402037a2cec, type: 3}
+          isLooping: 0
+          speed: 1
+          ScreenFadeOut: 0
+          waitToEnd: 1
+          playOnly: 0
+          stopSound: 0
+          toDeadly: 0
+          eventName: event:/SFX/Scene/Chapter 0/Mara Intro
+    00000003:
+      type: {class: VideoDisplay, ns: DREditor.Dialogues.Events, asm: DREditor}
+      data:
+        SVValue:
+          iniClip: {fileID: 0}
+          mainClip: {fileID: 0}
+          isLooping: 0
+          speed: 1
+          ScreenFadeOut: 0
+          waitToEnd: 0
+          playOnly: 0
+          stopSound: 0
+          toDeadly: 0
+          eventName: 
+    00000004:
+      type: {class: CharacterLeave, ns: DREditor.Dialogues.Events, asm: DREditor}
+      data:
+        data:
+          appear: 1
+          current: 1
+          exit: 0

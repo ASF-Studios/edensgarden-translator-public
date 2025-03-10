@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20edcadcdb408d94a924dbae47f52c21, type: 3}
+  m_Name: SS-0-1
+  m_EditorClassIdentifier: 
+  times:
+  - difficulty: 0
+    min: 1
+    sec: 30
+  - difficulty: 1
+    min: 1
+    sec: 0
+  - difficulty: 2
+    min: 0
+    sec: 30
+  texture: {fileID: 2800000, guid: b2d9335c8b8ebc44398ff231825311d2, type: 3}
+  spots:
+  - spotName: Ladder
+    position: {x: 1375.3333, y: 534, z: 0}
+    rotation: {x: -0, y: 0, z: 0}
+    size: {x: 122.34595, y: 240.53915}
+    center: {x: -6.729492, y: -250.90547}
+    isAnswer: 1
+    wrongDialogue: {fileID: 0}
+  - spotName: Shelf_1
+    position: {x: 559, y: 547, z: 0}
+    rotation: {x: -0, y: 0, z: 0}
+    size: {x: 271.4411, y: 486.32306}
+    center: {x: -38.882904, y: -124.28421}
+    isAnswer: 0
+    wrongDialogue: {fileID: 11400000, guid: 2d2a2c20be402e345b498208d67ae05f, type: 2}
+  - spotName: Bucket
+    position: {x: 814, y: 563, z: 0}
+    rotation: {x: -0, y: 0, z: 0}
+    size: {x: 73.41382, y: 61.742798}
+    center: {x: -0.9576416, y: -283.83746}
+    isAnswer: 0
+    wrongDialogue: {fileID: 11400000, guid: b2346ebbe0596494f850eac02da48c98, type: 2}
+  - spotName: Shelf_2
+    position: {x: 817, y: 676, z: 0}
+    rotation: {x: -0, y: 0, z: 0}
+    size: {x: 200.59692, y: 249.52917}
+    center: {x: 22.946472, y: -198.75525}
+    isAnswer: 0
+    wrongDialogue: {fileID: 11400000, guid: 2d2a2c20be402e345b498208d67ae05f, type: 2}
+  - spotName: Shelf_3
+    position: {x: 684, y: 654, z: 0}
+    rotation: {x: -0, y: 0, z: 0}
+    size: {x: 125.74304, y: 297.97595}
+    center: {x: 21.98883, y: -188.75684}
+    isAnswer: 0
+    wrongDialogue: {fileID: 11400000, guid: 2d2a2c20be402e345b498208d67ae05f, type: 2}
+  - spotName: Shelf_4
+    position: {x: 1181, y: 676, z: 0}
+    rotation: {x: -0, y: 0, z: 0}
+    size: {x: 111.33887, y: 288.37323}
+    center: {x: 31.59143, y: -212.7634}
+    isAnswer: 0
+    wrongDialogue: {fileID: 11400000, guid: 2d2a2c20be402e345b498208d67ae05f, type: 2}
+  question: What did the killer use to elevate themself?
+  damageOnWrong: 1
+  timerMinutes: 2
+  timerSeconds: 0
+  testCanvas: Can_SSCanvas
+  testCG: SS_CG

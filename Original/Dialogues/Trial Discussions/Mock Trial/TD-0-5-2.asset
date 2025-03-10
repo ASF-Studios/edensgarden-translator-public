@@ -1,0 +1,1043 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da43b8f9c6065fb42ba3c2d2355cfd67, type: 3}
+  m_Name: TD-0-5-2
+  m_EditorClassIdentifier: 
+  DialogueMode: 0
+  translationKey: 
+  DialogueName: 2
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  ShowDialoguePanel: 1
+  Variable:
+    Enabled: 0
+    BoolVariable: {fileID: 0}
+    Chapter: 0
+    Objective: 0
+    Flags: 
+    NextDialogueTrue: {fileID: 0}
+    NextIndexInDialogueTrue: 0
+    NextDialogueFalse: {fileID: 0}
+    NextIndexInDialogueFalse: 0
+  DirectTo:
+    Enabled: 0
+    NewDialogue: {fileID: 0}
+    NewDialogueIndex: 0
+    NewTrialDialogue: {fileID: 0}
+  SceneTransition:
+    Enabled: 0
+    Scene: 
+    ToDark: 0
+    ToMenu: 0
+    AtEnd: {fileID: 0}
+    OnLoadNoDark: 0
+  IsInstant: 0
+  FlagTrigger:
+    Enabled: 0
+    Chapter: 0
+    Objective: 0
+    Flags: 
+  EndVidEnabled: 0
+  EndVideo: {fileID: 0}
+  ClearLock: 0
+  Speakers: {fileID: 11400000, guid: e719e2033a0c18b4e879f6a91069b542, type: 2}
+  VFXDB: {fileID: 0}
+  Lines:
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 058afdf5a965adb4a8c335ab03eb8cfd, type: 2}
+    SpeakerNumber: 9
+    Text: "You speak like we have any information on the killer. The man\u2019s a
+      stock image \u2014 he doesn\u2019t even have a name."
+    VoiceSFX: event:/VO/CH0/TRIAL/0214_Wenona_YouSpeakLike
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 2c150dbdd5087ad4fbb0ee781790818d, type: 2}
+      Name: 11a
+    ExpressionNumber: 26
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 35
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 058afdf5a965adb4a8c335ab03eb8cfd, type: 2}
+    SpeakerNumber: 9
+    Text: "What are we supposed to ascertain from that? That he\u2019s a non-character?"
+    VoiceSFX: event:/VO/CH0/TRIAL/0215_Wenona_WhatAreWe
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 27
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: b6220100b3140cb48b24fbfe43274302, type: 2}
+    SpeakerNumber: 2
+    Text: "...Not every answer will be written down for you. Sometimes actions speak
+      louder than\u2014"
+    VoiceSFX: event:/VO/CH0/TRIAL/0216_Wolfgang_NotEveryAnswer
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 2d05bb88171a39940ae4a05e22de18c0, type: 2}
+      Name: 11b
+    ExpressionNumber: 29
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 11
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 959dbba31a897f244812bbffb20fd24a, type: 2}
+    SpeakerNumber: 15
+    Text: 'Woah, woah, woah! Hold the phone! '
+    VoiceSFX: event:/VO/CH0/TRIAL/0217_Grace_WoahWoahWoah
+    EnvSFX: 
+    SFX:
+    - event:/SFX/VO Bang/Defend - Accuse
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 5693ac2bc8338cc48bf26c4023e03e4a, type: 2}
+      Name: 2b
+    ExpressionNumber: 5
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 1
+    Music: event:/MUSIC/Class Trial/NSD/Revelation
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 13
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: b6220100b3140cb48b24fbfe43274302, type: 2}
+    SpeakerNumber: 2
+    Text: Grace?
+    VoiceSFX: event:/VO/CH0/TRIAL/0218_Wolfgang_Grace
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 5ad2d7e62c02aa74a9f274b20515d7cc, type: 2}
+      Name: 13b
+    ExpressionNumber: 33
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 51
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 485256fc1f844434ba3fee97f3e7ec6f, type: 2}
+    SpeakerNumber: 1
+    Text: Wawawah!? Since when was Grace back to normal!?
+    VoiceSFX: event:/VO/CH0/TRIAL/0219_Jett_WawawahSinceWhen
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: e7ee44573fd8d5045873b3fa0cf50162, type: 2}
+      Name: 5b
+    ExpressionNumber: 10
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 6
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 959dbba31a897f244812bbffb20fd24a, type: 2}
+    SpeakerNumber: 15
+    Text: Right now, soybean!
+    VoiceSFX: event:/VO/CH0/TRIAL/0220_Grace_RightNowSoybean
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 35c9ffe156c423c4db20fd0e229c5234, type: 2}
+      Name: 2a
+    ExpressionNumber: 4
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 19
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 959dbba31a897f244812bbffb20fd24a, type: 2}
+    SpeakerNumber: 15
+    Text: Heh... Watching you guys try to solve this mystery has been like watching
+      a dumpster catch on fire.
+    VoiceSFX: event:/VO/CH0/TRIAL/0221_Grace_HehWatchingYou
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: afb79dcab8b7a3a40b67dd4c64e13dc1, type: 2}
+      Name: 8b
+    ExpressionNumber: 26
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 5
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 959dbba31a897f244812bbffb20fd24a, type: 2}
+    SpeakerNumber: 15
+    Text: "I guess all that smoke must\u2019ve clouded your vision, cause there\u2019s
+      a big ass elephant in this room! "
+    VoiceSFX: event:/VO/CH0/TRIAL/0222_Grace_IGuessAll
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 74f49fb739ea8d145890bfad26e26a76, type: 2}
+      Name: 11a
+    ExpressionNumber: 32
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 15
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 5efe1ae9076cba045a2dbe1b58dc9782, type: 2}
+    SpeakerNumber: 7
+    Text: "An\u2026elephant in the room?"
+    VoiceSFX: event:/VO/CH0/TRIAL/0223_Eva_AnelephantInThe
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: a3cd90f8414f137419d12b0e1bab900f, type: 2}
+      Name: 5a
+    ExpressionNumber: 14
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 9
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: caccea21c3ed9aa43a637ebab7a46fa1, type: 2}
+    SpeakerNumber: 11
+    Text: "That\u2019s giving us too much credit..."
+    VoiceSFX: event:/VO/CH0/TRIAL/0224_Mark_ThatsGivingUs
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: a4ad23cbd961bea4fadecaf0a9569cbc, type: 2}
+      Name: 7b
+    ExpressionNumber: 12
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 72
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 959dbba31a897f244812bbffb20fd24a, type: 2}
+    SpeakerNumber: 15
+    Text: "So the killer incapacitated that girl. She had a gun \u2014 it makes total
+      sense."
+    VoiceSFX: event:/VO/CH0/TRIAL/0225_Grace_SoTheKiller
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 840328eb3158f224e86a89fad8d4f559, type: 2}
+      Name: 3a
+    ExpressionNumber: 7
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 66
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 959dbba31a897f244812bbffb20fd24a, type: 2}
+    SpeakerNumber: 15
+    Text: "Problem is, you\u2019ve yet to explain *how* he used the bleach!"
+    VoiceSFX: event:/VO/CH0/TRIAL/0226_Grace_ProblemIsYouve
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 35c9ffe156c423c4db20fd0e229c5234, type: 2}
+      Name: 2a
+    ExpressionNumber: 4
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 18
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: e0c23c1498fe79c47ab09704f645be69, type: 2}
+    SpeakerNumber: 12
+    Text: I sort of assumed he spilled it on the victim...
+    VoiceSFX: event:/VO/CH0/TRIAL/0227_Diana_ISortOf
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 829f19969ab9d854fbc2c6c11a24dc95, type: 2}
+      Name: 3b
+    ExpressionNumber: 8
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 31
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 485256fc1f844434ba3fee97f3e7ec6f, type: 2}
+    SpeakerNumber: 1
+    Text: Right, he just tipped the bottle over her!
+    VoiceSFX: event:/VO/CH0/TRIAL/0228_Jett_RightHeJust
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 54efb71beb6f41343a09668e8f757850, type: 2}
+      Name: 3c
+    ExpressionNumber: 7
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 4
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: ef2ca6b0db8aba343a6f31061eaca40b, type: 2}
+    SpeakerNumber: 8
+    Text: That bottle was where the bleach came from, sure, but I doubt the bottle
+      itself was involved in the murder.
+    VoiceSFX: event:/VO/CH0/TRIAL/0229_Desmond_ThatBottleIs
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 84565697b60979147bdc5f3ae9afba5b, type: 2}
+      Name: 6b
+    ExpressionNumber: 12
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 30
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: ef2ca6b0db8aba343a6f31061eaca40b, type: 2}
+    SpeakerNumber: 8
+    Text: 'When we found it, it was neatly ordered on a shelf near the back of the
+      closet. '
+    VoiceSFX: event:/VO/CH0/TRIAL/0230_Desmond_WhenWeFound
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 10
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: ef2ca6b0db8aba343a6f31061eaca40b, type: 2}
+    SpeakerNumber: 8
+    Text: "The gun and knife were just thrown on the floor, so it\u2019s weird this
+      \u201Cweapon\u201D was handled so differently. "
+    VoiceSFX: event:/VO/CH0/TRIAL/0231_Desmond_TheGunAnd
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 34
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: e0c23c1498fe79c47ab09704f645be69, type: 2}
+    SpeakerNumber: 12
+    Text: Do you think the killer just poured the contents of that bottle into something
+      else?
+    VoiceSFX: event:/VO/CH0/TRIAL/0232_Diana_DoYouThink
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: cf0f80aebf379d946968e5d310009f14, type: 2}
+      Name: 3a
+    ExpressionNumber: 7
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 36
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: ef2ca6b0db8aba343a6f31061eaca40b, type: 2}
+    SpeakerNumber: 8
+    Text: "Sure, before the actual murder took place, I\u2019d say. "
+    VoiceSFX: event:/VO/CH0/TRIAL/0233_Desmond_SureBeforeThe
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 4821755cc9ded45469730131d94768c3, type: 2}
+      Name: 3b
+    ExpressionNumber: 6
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 40
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 959dbba31a897f244812bbffb20fd24a, type: 2}
+    SpeakerNumber: 15
+    Text: "And what is this \u201Csomething else\u201D?"
+    VoiceSFX: event:/VO/CH0/TRIAL/0234_Grace_AndWhatIs
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: c39e28576e5c7f94cb6b0d4670ec405e, type: 2}
+      Name: 8c
+    ExpressionNumber: 27
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 14
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 959dbba31a897f244812bbffb20fd24a, type: 2}
+    SpeakerNumber: 15
+    Text: Go on. Explain it before this dumpster turns molten!
+    VoiceSFX: event:/VO/CH0/TRIAL/0235_Grace_GoOnExplain
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 35c9ffe156c423c4db20fd0e229c5234, type: 2}
+      Name: 2a
+    ExpressionNumber: 4
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 27
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: "$She\u2019s really stubborn about this\u2026but I get the point she\u2019s
+      trying to make."
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: e416a466d86f3514eb29e3a8e7e1e786, type: 2}
+      Name: 11a
+    ExpressionNumber: 35
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 11
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: $Before we move on from this subject, we need to make sure its logic is
+      completely sound.
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 10
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: "$Alright then. Let\u2019s put out this \u201Cfire\"."
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: ac0dc9ad23526e24f9a3f5125afa8506, type: 2}
+      Name: 11b
+    ExpressionNumber: 36
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+    vfxIdx: 0
+    camAnimIdx: 87
+    edit: 0
+    co:
+      enabled: 0
+      seatFocus: 0
+      height: 0
+      distance: 0
+  skip: 0
+  references:
+    version: 1

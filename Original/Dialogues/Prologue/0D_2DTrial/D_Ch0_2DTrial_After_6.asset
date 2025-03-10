@@ -1,0 +1,714 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3696ba1569766a8489015c30a74c1f95, type: 3}
+  m_Name: D_Ch0_2DTrial_After_6
+  m_EditorClassIdentifier: 
+  DialogueMode: 0
+  translationKey: 
+  DialogueName: 7
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  ShowDialoguePanel: 1
+  Variable:
+    Enabled: 0
+    BoolVariable: {fileID: 0}
+    Chapter: 0
+    Objective: 0
+    Flags: 
+    NextDialogueTrue: {fileID: 0}
+    NextIndexInDialogueTrue: 0
+    NextDialogueFalse: {fileID: 0}
+    NextIndexInDialogueFalse: 0
+  DirectTo:
+    Enabled: 1
+    NewDialogue: {fileID: 11400000, guid: 4a8f09ac648b2dd4d97f7557180e0a61, type: 2}
+    NewDialogueIndex: 0
+    NewTrialDialogue: {fileID: 0}
+  SceneTransition:
+    Enabled: 0
+    Scene: 
+    ToDark: 0
+    ToMenu: 0
+    AtEnd: {fileID: 0}
+    OnLoadNoDark: 0
+  IsInstant: 0
+  FlagTrigger:
+    Enabled: 0
+    Chapter: 0
+    Objective: 0
+    Flags: 
+  EndVidEnabled: 0
+  EndVideo: {fileID: 0}
+  ClearLock: 0
+  Speakers: {fileID: 11400000, guid: e719e2033a0c18b4e879f6a91069b542, type: 2}
+  VFXDB: {fileID: 0}
+  UnlockPause: 0
+  UnlockPauseOption: 0
+  PauseOptionNum: 0
+  PauseOptionTo: 1
+  Lines:
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 4d28ecc3dd894244fb81da54f9bf1704, type: 2}
+    SpeakerNumber: 18
+    Text: "I assure you, it\u2019d be unwise to further test her sharpshooting ability."
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: b6220100b3140cb48b24fbfe43274302, type: 2}
+    SpeakerNumber: 2
+    Text: "\u2026Regardless, I finally have an answer to your previous question. "
+    VoiceSFX: event:/VO/GENERAL/Wolfgang/09_InAnyCase
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 458715211bf8bfa4e9dd03ccc5c37019, type: 2}
+      Name: 2f
+    ExpressionNumber: 8
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 4d28ecc3dd894244fb81da54f9bf1704, type: 2}
+    SpeakerNumber: 18
+    Text: Meh?
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: b6220100b3140cb48b24fbfe43274302, type: 2}
+    SpeakerNumber: 2
+    Text: You asked me if I knew anything about my friends besides their names and
+      talents.
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: b6220100b3140cb48b24fbfe43274302, type: 2}
+    SpeakerNumber: 2
+    Text: "Truthfully, I don\u2019t...but I\u2019ll continue to trust them as if
+      I do...because <gradient=\"HitText\">they're Ultimates</gradient>."
+    VoiceSFX: event:/VO/GENERAL/Wolfgang/07_NoMatter
+    EnvSFX: 
+    SFX:
+    - event:/SFX/VO Bang/Idea 2
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 61dff1ae5e38d4341a87d5acc5beecf6, type: 2}
+      Name: 3c
+    ExpressionNumber: 11
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 1
+    Music: Null
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 1
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 1
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: $Huh?
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 1
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: b6220100b3140cb48b24fbfe43274302, type: 2}
+    SpeakerNumber: 2
+    Text: "They are charged with the betterment of society. They\u2019ve proven themselves
+      to be above simple acts of self-interest..."
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 1
+    Music: event:/MUSIC/Daily Life/Beautiful Tragedy
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: b6220100b3140cb48b24fbfe43274302, type: 2}
+    SpeakerNumber: 2
+    Text: We will not succumb! Even if you trap us, fire guns at us, and force us
+      to endure farcical courtroom procedures!
+    VoiceSFX: event:/VO/GENERAL/Wolfgang/27_WeWillNot
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 53b6e27b2d7d10d49bc9b44ad830c965, type: 2}
+      Name: 6b
+    ExpressionNumber: 16
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: event:/MUSIC/Class Trial/NSD/Revelation
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 959dbba31a897f244812bbffb20fd24a, type: 2}
+    SpeakerNumber: 15
+    Text: "H-He\u2019s right!"
+    VoiceSFX: event:/VO/GENERAL/Grace/33a_AnnoyedGrunt
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: b181cbd477bc7934b9a93c992edeb447, type: 2}
+      Name: 6c
+    ExpressionNumber: 17
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 1
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: $Grace was trying to compose herself, still clearly shocked by her run-in
+      with death.
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 959dbba31a897f244812bbffb20fd24a, type: 2}
+    SpeakerNumber: 15
+    Text: "No matter how weird these guys are, they\u2019re talented. Do you really
+      think an Ultimate would fall for this bullshit? "
+    VoiceSFX: event:/VO/GENERAL/Grace/41_DontTestMe
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: f8a801c7c2cd97b438261977adad6b41, type: 2}
+      Name: 13b
+    ExpressionNumber: 36
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: e0c23c1498fe79c47ab09704f645be69, type: 2}
+    SpeakerNumber: 12
+    Text: "T-That\u2019s right! My friends and I have too much to live for and too
+      much to achieve. "
+    VoiceSFX: event:/VO/GENERAL/Diana/35_Uhh
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 5d39479568b71604abe6adeac8ad1c4e, type: 2}
+      Name: 13a
+    ExpressionNumber: 34
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: e0c23c1498fe79c47ab09704f645be69, type: 2}
+    SpeakerNumber: 12
+    Text: "We won\u2019t throw all that away for your killing game! "
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: ef2ca6b0db8aba343a6f31061eaca40b, type: 2}
+    SpeakerNumber: 8
+    Text: "We\u2019re all going to escape...we have to!"
+    VoiceSFX: event:/VO/GENERAL/Desmond/16_DontGetIt
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 31cd27d50942fbc489a13682156a9faa, type: 2}
+      Name: 11a
+    ExpressionNumber: 22
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: $One by one, the students raised their voices in solidarity with Wolfgang.
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents:
+    - id: 0
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 1
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: '$All of them were so confident in what they were saying, so willing to
+      blindly put their faith in each other... '
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: $...And for some reason, it made me sick.
+    VoiceSFX: 
+    EnvSFX: 
+    SFX:
+    - event:/SFX/VO Bang/Idea 1
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: Null
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: ab955ba7d4962a84fa866df73d40ebba, type: 2}
+    SpeakerNumber: 6
+    Text: Never underestimate the strength of human connection. I am quite familiar
+      with this idea.
+    VoiceSFX: event:/VO/GENERAL/Toshiko/03_MyMy
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 552d90f3fe26a2240881161abc40c7b9, type: 2}
+      Name: 3b
+    ExpressionNumber: 6
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 1
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: "What kind of captain would I be if I can\u2019t even handle a small crew
+      of fifteen?  "
+    VoiceSFX: event:/VO/GENERAL/Jean/03_Aye
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: f5873a1cab639db48bdfd6771fd27880, type: 2}
+      Name: 4a
+    ExpressionNumber: 9
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: '$What is this horrible feeling of...contempt? '
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents:
+    - id: 1
+    MusicChange: 1
+    Music: Null
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 1
+  Choices: []
+  StartInvestigation:
+    Enabled: 0
+    NextObjective: 1
+    NewDialogue: {fileID: 0}
+  references:
+    version: 1
+    00000000:
+      type: {class: CamToPosition, ns: DREditor.Dialogues.Events, asm: DREditor}
+      data:
+        _ShowHelp: 0
+        cTPTuple:
+          objectName: CenterOfRoom
+          keepFocus: 0
+        objectName: CenterOfRoom
+    00000001:
+      type: {class: CamToPosition, ns: DREditor.Dialogues.Events, asm: DREditor}
+      data:
+        _ShowHelp: 0
+        cTPTuple:
+          objectName: CenterOfRoom
+          keepFocus: 0
+        objectName: CenterOfRoom

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cce9eef62264cd46a3ef7ce1d3c7162, type: 3}
+  m_Name: ControlDatabase
+  m_EditorClassIdentifier: 
+  controls:
+  - name: dialogue
+    panel: {fileID: 11400000, guid: 6c72ca6e0f32c794e8f9cd8a8981bb9e, type: 2}
+  - name: tpfd
+    panel: {fileID: 11400000, guid: c70fe2bd987da384199bafc044e00d5b, type: 2}
+  - name: threed
+    panel: {fileID: 11400000, guid: 92881036bd31c7e46b0325c7fedb8d71, type: 2}
+  - name: trialdialogue
+    panel: {fileID: 11400000, guid: 4decb362018fa0d4eb572744c4875087, type: 2}
+  - name: nsd
+    panel: {fileID: 11400000, guid: 8439751a4f4f6384fa5118de23b01496, type: 2}
+  - name: nsdp
+    panel: {fileID: 11400000, guid: fe5f248fbfb157e40b695e2e17eb7ad9, type: 2}
+  - name: ca
+    panel: {fileID: 11400000, guid: 27a56c831b4eb2a4a9c1a8abf63b8278, type: 2}

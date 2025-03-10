@@ -1,0 +1,570 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3696ba1569766a8489015c30a74c1f95, type: 3}
+  m_Name: Train_03
+  m_EditorClassIdentifier: 
+  DialogueMode: 0
+  translationKey: 
+  DialogueName: 2
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  ShowDialoguePanel: 1
+  Variable:
+    Enabled: 0
+    BoolVariable: {fileID: 0}
+    Chapter: 0
+    Objective: 0
+    Flags: 
+    NextDialogueTrue: {fileID: 0}
+    NextIndexInDialogueTrue: 0
+    NextDialogueFalse: {fileID: 0}
+    NextIndexInDialogueFalse: 0
+  DirectTo:
+    Enabled: 1
+    NewDialogue: {fileID: 11400000, guid: 660b7708f66d47b44b31a42d40eb3014, type: 2}
+    NewDialogueIndex: 0
+    NewTrialDialogue: {fileID: 0}
+  SceneTransition:
+    Enabled: 1
+    Scene: GYM_Boiler
+    ToDark: 0
+    ToMenu: 0
+    AtEnd: {fileID: 0}
+    OnLoadNoDark: 0
+  IsInstant: 0
+  FlagTrigger:
+    Enabled: 0
+    Chapter: 0
+    Objective: 0
+    Flags: 
+  EndVidEnabled: 0
+  EndVideo: {fileID: 0}
+  ClearLock: 0
+  Speakers: {fileID: 11400000, guid: e719e2033a0c18b4e879f6a91069b542, type: 2}
+  VFXDB: {fileID: 11400000, guid: b659025bb3e4d4d49a491661f61f46eb, type: 2}
+  UnlockPause: 0
+  UnlockPauseOption: 0
+  PauseOptionNum: 0
+  PauseOptionTo: 1
+  Lines:
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: $...and threw himself against the door with all his might!
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: a522f2555e3aec24c8ca48ae92301b1a, type: 2}
+      Name: 13b
+    ExpressionNumber: 39
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: "Gh\u2026!"
+    VoiceSFX: event:/VO/GENERAL/Jean/28_Ghh!
+    EnvSFX: 
+    SFX:
+    - event:/SFX/Scene/Chapter 0/Body Thrown At Door
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: ba857559cc0c09941b501b40f8b86cfb, type: 2}
+      Name: 7cNoTrinket
+    ExpressionNumber: 39
+    AliasNumber: 1
+    DiaEvents:
+    - id: 0
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: "$He groaned and stepped back\u2026revealing he hadn\u2019t even left a
+      mark on the door."
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 1
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 959dbba31a897f244812bbffb20fd24a, type: 2}
+    SpeakerNumber: 15
+    Text: What? That did nothing!?
+    VoiceSFX: event:/VO/GENERAL/Grace/45a_Gasp
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: fd19032f79c380c42ba0c85810d91fc2, type: 2}
+      Name: 5bNoTrinket
+    ExpressionNumber: 45
+    AliasNumber: 1
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 6510ad5c649a3d340864068e33ad3b9e, type: 2}
+    SpeakerNumber: 3
+    Text: "Ahh... There\u2019s another boy who\u2019s fallen! A girl, too...! "
+    VoiceSFX: event:/VO/GENERAL/Eloise/11_Aah
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: df9e29cb334d0b741a31db892a58bfc9, type: 2}
+      Name: 5aNoTrinket
+    ExpressionNumber: 30
+    AliasNumber: 1
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: e0c23c1498fe79c47ab09704f645be69, type: 2}
+    SpeakerNumber: 12
+    Text: W-Why is everyone passing out!?
+    VoiceSFX: event:/VO/GENERAL/Diana/49_Aaah
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 6ab756fbff817ed45abfdbf2b9d9fe1a, type: 2}
+      Name: 13cNoTrinket
+    ExpressionNumber: 42
+    AliasNumber: 1
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: "^Shit...maybe it\u2019s got something to do with that bag we\u2014"
+    VoiceSFX: event:/VO/GENERAL/Damon/23_Damnit
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: a522f2555e3aec24c8ca48ae92301b1a, type: 2}
+      Name: 13b
+    ExpressionNumber: 39
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: Ah?
+    VoiceSFX: event:/SFX/VO Bang/Idea 1
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 1
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 1
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: $The air around me had grown thick with a strange, pungent smell.
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: "$I could taste it\u2026 Feel it sting my eyes\u2026"
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: bec34eb8cc9675e4eaeae716a1b92568, type: 2}
+      Name: 6f
+    ExpressionNumber: 19
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: "Oh god\u2026 No\u2026 Don\u2019t\u2026"
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: ^$As a futile plea left my lips, I felt my strength trail away with it.
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: "$The world flickered around me\u2026and then\u2026 "
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: $There was nothing.
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents:
+    - id: 1
+    MusicChange: 1
+    Music: Null
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 1
+  - translationKey: 
+    Speaker: {fileID: 0}
+    SpeakerNumber: -1
+    Text: 
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents:
+    - id: 2
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 1
+  Choices: []
+  StartInvestigation:
+    Enabled: 0
+    NextObjective: 1
+    NewDialogue: {fileID: 0}
+  references:
+    version: 1
+    00000000:
+      type: {class: ShakeObject, ns: DREditor.Dialogues.Events, asm: DREditor}
+      data:
+        data:
+          type: 0
+          duration: 0.5
+          strength: 4
+          vibrato: 10
+          randomness: 5
+          snapping: 0
+          fadeOut: 1
+          protag: 0
+        _ShowHelp: 0
+    00000001:
+      type: {class: CGDisplay, ns: DREditor.Dialogues.Events, asm: DREditor}
+      data:
+        SCGValue:
+          CG: {fileID: 21300000, guid: fb2b10dcf2d2b9c43b64c276cb57b7fe, type: 3}
+          transitionInstant: 0
+          eventName: 
+          ScreenFadeOut: 0
+          toDeadly: 0
+          prefab: {fileID: 0}
+          playOnly: 0
+    00000002:
+      type: {class: CGDisplay, ns: DREditor.Dialogues.Events, asm: DREditor}
+      data:
+        SCGValue:
+          CG: {fileID: 0}
+          transitionInstant: 0
+          eventName: 
+          ScreenFadeOut: 1
+          toDeadly: 0
+          prefab: {fileID: 6149909359892307668, guid: fa8377cf70b85134092df8ecf0de32f6,
+            type: 3}
+          playOnly: 1

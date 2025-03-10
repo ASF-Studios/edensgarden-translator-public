@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de72c192eb4fd124faf13ef1035958be, type: 3}
+  m_Name: Ch0_Bullet_Hands
+  m_EditorClassIdentifier: 
+  Picture: {fileID: 21300000, guid: 5c002dad2e32b6a46996f72c5bbde664, type: 3}
+  Title: Victim's Hands
+  Description: There was dried blood underneath the victim's nails. The rest of her
+    hands were clean.
+  LieTitle: Lie Bullet 5
+  LieDescription: 
+  tbNum: 0

@@ -1,0 +1,1970 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3696ba1569766a8489015c30a74c1f95, type: 3}
+  m_Name: D_Pro_TreeRoom_Jean
+  m_EditorClassIdentifier: 
+  DialogueMode: 0
+  translationKey: 
+  DialogueName: 1
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  ShowDialoguePanel: 1
+  Variable:
+    Enabled: 1
+    BoolVariable: {fileID: 0}
+    Chapter: 0
+    Objective: 4
+    Flags: 0000000001000000020000000300000004000000050000000600000007000000
+    NextDialogueTrue: {fileID: 11400000, guid: 0c9808680018a3a46b19d2f176624e4e, type: 2}
+    NextIndexInDialogueTrue: 0
+    NextDialogueFalse: {fileID: 0}
+    NextIndexInDialogueFalse: 0
+  DirectTo:
+    Enabled: 0
+    NewDialogue: {fileID: 0}
+    NewDialogueIndex: 0
+    NewTrialDialogue: {fileID: 0}
+  SceneTransition:
+    Enabled: 0
+    Scene: 
+    ToDark: 0
+    ToMenu: 0
+    AtEnd: {fileID: 0}
+    OnLoadNoDark: 0
+  IsInstant: 0
+  FlagTrigger:
+    Enabled: 1
+    Chapter: 0
+    Objective: 4
+    Flags: 01000000
+  EndVidEnabled: 0
+  EndVideo: {fileID: 0}
+  ClearLock: 0
+  Speakers: {fileID: 11400000, guid: e719e2033a0c18b4e879f6a91069b542, type: 2}
+  VFXDB: {fileID: 11400000, guid: b659025bb3e4d4d49a491661f61f46eb, type: 2}
+  UnlockPause: 0
+  UnlockPauseOption: 0
+  PauseOptionNum: 0
+  PauseOptionTo: 1
+  Lines:
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: "Glad to see you\u2019re alright, kid."
+    VoiceSFX: event:/VO/GENERAL/Jean/28_Ghh!
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 40ffa9400c8503c40bf5db499abde9d1, type: 2}
+      Name: 1c
+    ExpressionNumber: 3
+    AliasNumber: 1
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: ab955ba7d4962a84fa866df73d40ebba, type: 2}
+    SpeakerNumber: 6
+    Text: "Of course I\u2019m alright!"
+    VoiceSFX: event:/VO/GENERAL/Toshiko/17_Hmph
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: a05f11e5fa3d86e478cc26e86b47bf26, type: 2}
+      Name: 6a
+    ExpressionNumber: 11
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: You gave everyone a scare, running away like that.
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 1
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: 'I really thought we could catch you, but... '
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 1
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: ab955ba7d4962a84fa866df73d40ebba, type: 2}
+    SpeakerNumber: 6
+    Text: How fortunate that the door came equipped with a lock.
+    VoiceSFX: event:/VO/GENERAL/Toshiko/27_Hohoho
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 2c1f39e1b8a68b545a89ba3104b023cb, type: 2}
+      Name: 8b
+    ExpressionNumber: 17
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: '*Sigh*'
+    VoiceSFX: event:/VO/GENERAL/Jean/38_Sigh
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: a78ab149c7b195541a80637d1865af44, type: 2}
+      Name: 7b
+    ExpressionNumber: 17
+    AliasNumber: 1
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: ab955ba7d4962a84fa866df73d40ebba, type: 2}
+    SpeakerNumber: 6
+    Text: However, it was all worth it. Look at these people I befriended during
+      my exploration!
+    VoiceSFX: event:/VO/GENERAL/Toshiko/29_See
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: ec85cba1206d66d4685a64461fd6a2d8, type: 2}
+      Name: 8a
+    ExpressionNumber: 16
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: "...I\u2019ll give credit where credit\u2019s due. You came back with plenty
+      o\u2019 spoils."
+    VoiceSFX: event:/VO/GENERAL/Jean/06_IHearYa
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: cb3feb0b95696a34d89d03d48538408d, type: 2}
+      Name: 1a
+    ExpressionNumber: 1
+    AliasNumber: 1
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: ab955ba7d4962a84fa866df73d40ebba, type: 2}
+    SpeakerNumber: 6
+    Text: 'Hehe... '
+    VoiceSFX: event:/VO/GENERAL/Toshiko/26_Hehe
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 959dbba31a897f244812bbffb20fd24a, type: 2}
+    SpeakerNumber: 15
+    Text: Oi, I want to talk for a sec!
+    VoiceSFX: event:/VO/GENERAL/Grace/02_OyYou
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 35c9ffe156c423c4db20fd0e229c5234, type: 2}
+      Name: 2a
+    ExpressionNumber: 4
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: Huh?
+    VoiceSFX: event:/VO/GENERAL/Jean/39_Huh
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 3d4a7cc03f5601548a59baeb30672f20, type: 2}
+      Name: 1b
+    ExpressionNumber: 2
+    AliasNumber: 1
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 959dbba31a897f244812bbffb20fd24a, type: 2}
+    SpeakerNumber: 15
+    Text: "You\u2019re a pirate, right?"
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 959dbba31a897f244812bbffb20fd24a, type: 2}
+    SpeakerNumber: 15
+    Text: "\u201CShiver me timbers\u201D! \u201CAhoy matey\u201D! That kinda pirate,
+      right?"
+    VoiceSFX: event:/VO/GENERAL/Grace/27_Hehehe
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: afb79dcab8b7a3a40b67dd4c64e13dc1, type: 2}
+      Name: 8b
+    ExpressionNumber: 26
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: ...Ngh!
+    VoiceSFX: event:/VO/GENERAL/Jean/21_Pirate
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 186158e86dae7c8408cd4bfa995e291f, type: 2}
+      Name: 7c
+    ExpressionNumber: 18
+    AliasNumber: 1
+    DiaEvents:
+    - id: 0
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 1
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 959dbba31a897f244812bbffb20fd24a, type: 2}
+    SpeakerNumber: 15
+    Text: Heh?
+    VoiceSFX: event:/VO/GENERAL/Grace/31_Ey
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 6c1f6502a6e8bc24e85f69c05a566080, type: 2}
+      Name: 1a
+    ExpressionNumber: 2
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: "I\u2019m not a pirate, I\u2019m a <gradient=\"HitText\">ship captain</gradient>.
+      There\u2019s a huge difference!"
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 1
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: $Huh? A ship captain?
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 5efe1ae9076cba045a2dbe1b58dc9782, type: 2}
+    SpeakerNumber: 7
+    Text: "You don\u2019t need to be so loud. She was just asking a question."
+    VoiceSFX: event:/VO/GENERAL/Eva/04_ImTalking
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 989ccf625d1851c45a55ef51e419cd11, type: 2}
+      Name: 6e
+    ExpressionNumber: 20
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: "\u201CJust\u201D a question?"
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 1
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: "Hah. For guys like me, that \u201Cpirate\u201D nonsense is a tired stereotype."
+    VoiceSFX: event:/VO/GENERAL/Jean/18_Ha
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: a78ab149c7b195541a80637d1865af44, type: 2}
+      Name: 7b
+    ExpressionNumber: 17
+    AliasNumber: 1
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: Pirates live off stealing and causing trouble. We ship captains are nothing
+      like those low lives!
+    VoiceSFX: event:/VO/GENERAL/Jean/20_WatchIt
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 5594da5a8a2f31646b9803b03592a346, type: 2}
+      Name: 6a
+    ExpressionNumber: 14
+    AliasNumber: 1
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: "^If you\u2019re not a pirate, then...explain the clothes."
+    VoiceSFX: event:/VO/GENERAL/Damon/04_JeezAnnoyed
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 17c25bb1d045ff4439011ba8e1fab9a8, type: 2}
+      Name: 1c
+    ExpressionNumber: 3
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: 'Ngh? Do these look like the clothes of a pirate to you? '
+    VoiceSFX: event:/VO/GENERAL/Jean/39_Huh
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: c96d4962d4e4abf4fa9efdb1b967acda, type: 2}
+      Name: 5a
+    ExpressionNumber: 11
+    AliasNumber: 1
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: Maybe not a real one, but an exaggerated stereotype, sure.
+    VoiceSFX: event:/VO/GENERAL/Damon/20_Tch
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 9f517bb72e481004fb211bd339b61abf, type: 2}
+      Name: 10b
+    ExpressionNumber: 34
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: ...!
+    VoiceSFX: event:/VO/GENERAL/Jean/28_Ghh!
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 5594da5a8a2f31646b9803b03592a346, type: 2}
+      Name: 6a
+    ExpressionNumber: 14
+    AliasNumber: 1
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: b6220100b3140cb48b24fbfe43274302, type: 2}
+    SpeakerNumber: 2
+    Text: ^It's...probably best you leave this man alone. I take it he's dealt with
+      our kind before.
+    VoiceSFX: event:/VO/GENERAL/Wolfgang/42_PleaseDont
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: f8e62031766ec7143a3ce70e6f905e9c, type: 2}
+      Name: 12a
+    ExpressionNumber: 30
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: 'Tch...  '
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 1
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: 'I never like to soil the mood, but a man can only stand so much. '
+    VoiceSFX: event:/VO/GENERAL/Jean/24_MyMistake
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 2284cd736dfcb704385a9aa3e7cc5d86, type: 2}
+      Name: 7a
+    ExpressionNumber: 16
+    AliasNumber: 1
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: ...Sorry for losing my cool.
+    VoiceSFX: event:/VO/GENERAL/Jean/41_ImRealSorry
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: a78ab149c7b195541a80637d1865af44, type: 2}
+      Name: 7b
+    ExpressionNumber: 17
+    AliasNumber: 1
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: ^Okay, whatever... You said you were a ship captain, right?
+    VoiceSFX: event:/VO/GENERAL/Damon/62_anyway
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: ac0dc9ad23526e24f9a3f5125afa8506, type: 2}
+      Name: 11b
+    ExpressionNumber: 36
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: $This guy was acting weird, but I wanted to get more out of him.
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: "$I never pictured a ship captain receiving an invitation from Eden\u2019s
+      Garden Academy, especially not someone like this guy."
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: "^Hmph, that\u2019s right... "
+    VoiceSFX: event:/VO/GENERAL/Jean/11_ThatsRight
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 05f9e7e88a07f85439f699330f79c1c0, type: 2}
+      Name: 3a
+    ExpressionNumber: 7
+    AliasNumber: 1
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: "I know the seas like the back of my hand \u2014 every river and waterway
+      within the north and southern waters."
+    VoiceSFX: event:/VO/GENERAL/Jean/34_Haha
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: f5873a1cab639db48bdfd6771fd27880, type: 2}
+      Name: 4a
+    ExpressionNumber: 9
+    AliasNumber: 1
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: "I\u2019m the king of the seas, hero of the storms... I am Jean DeLamer!"
+    VoiceSFX: event:/VO/INTRO/Jean
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 17b6a978d136acd4189785908fc36878, type: 2}
+      Name: 4b
+    ExpressionNumber: 10
+    AliasNumber: 1
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 0}
+    SpeakerNumber: -1
+    Text: 
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents:
+    - id: 1
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 1
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: "$\u201CKing of the seas\u201D? \u201CHero of the storms\u201D?"
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: '$Do people actually call him that? Or did he come up with those names
+      himself? '
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 5efe1ae9076cba045a2dbe1b58dc9782, type: 2}
+    SpeakerNumber: 7
+    Text: You know every river and waterway? Is that really true?
+    VoiceSFX: event:/VO/GENERAL/Eva/15A_IsThatReally
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: a3cd90f8414f137419d12b0e1bab900f, type: 2}
+      Name: 5a
+    ExpressionNumber: 14
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: "Yep, I\u2019ve studied every map I possibly can. "
+    VoiceSFX: event:/VO/GENERAL/Jean/02_Aye
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: f03045bf7f34b4048932314448b5c88b, type: 2}
+      Name: 2a
+    ExpressionNumber: 5
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: "\u2018Course, I haven\u2019t actually been *everywhere*. "
+    VoiceSFX: event:/VO/GENERAL/Jean/29_Grumble
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 05f9e7e88a07f85439f699330f79c1c0, type: 2}
+      Name: 3a
+    ExpressionNumber: 7
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: "According to a stingy little thing called \u201Cborder patrol\u201D, that\u2019s
+      known in some parts as \u201Ctrespassing\u201D."
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: "I may be king of the seas, but I\u2019m not above the law! Gwahaha! "
+    VoiceSFX: event:/VO/GENERAL/Jean/35_Gwahaha
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 3a0cdca29e6471a4d9fbbf02dd8888b9, type: 2}
+      Name: 8c
+    ExpressionNumber: 21
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 5efe1ae9076cba045a2dbe1b58dc9782, type: 2}
+    SpeakerNumber: 7
+    Text: "...I suppose that\u2019s good enough."
+    VoiceSFX: event:/VO/GENERAL/Eva/09B_MmmShort
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: f8c73dc6c4068ff4f911399b1d236164, type: 2}
+      Name: 3f
+    ExpressionNumber: 12
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: "Either way, it\u2019s not like it matters much here. From the looks of
+      it, we\u2019re nowhere near the ocean. "
+    VoiceSFX: event:/VO/GENERAL/Jean/10_ISee
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 05f9e7e88a07f85439f699330f79c1c0, type: 2}
+      Name: 3a
+    ExpressionNumber: 7
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: '...Fortunately, life as a captain has accustomed me to the unexpected. '
+    VoiceSFX: event:/VO/GENERAL/Jean/07_LeaveItToMe
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: f5873a1cab639db48bdfd6771fd27880, type: 2}
+      Name: 4a
+    ExpressionNumber: 9
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 1
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: You lads can trust in me. I will protect you as if you were my own crew!
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: ^Protect? Protect us from what?
+    VoiceSFX: event:/VO/GENERAL/Damon/21B_WhatNowAnnoyed
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 17c25bb1d045ff4439011ba8e1fab9a8, type: 2}
+      Name: 1c
+    ExpressionNumber: 3
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: I suppose...from whoever put these wrist watches on us.
+    VoiceSFX: event:/VO/GENERAL/Jean/01_Aye
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 7efec2b76e52d5a44b42bf30a878ce27, type: 2}
+      Name: 3b
+    ExpressionNumber: 8
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: "Then again, there doesn\u2019t seem to be anyone else in this place apart
+      from us.  "
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: Guess that means our only obstacle is finding an escape. Not too big of
+      an ask, ay?
+    VoiceSFX: event:/VO/GENERAL/Jean/33_HowsThatSound
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: be074d85e55b2ff40bc86a56a8c952d8, type: 2}
+      Name: 8a
+    ExpressionNumber: 19
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: "All we need to do is find where we entered, then voil\xE0! Sweet freedom!"
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: $For such a simple conclusion, he sure was making a big deal out of it.
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: e7b5dd879ae1d2a4cbeaed4fd14d437b, type: 2}
+      Name: 1b
+    ExpressionNumber: 2
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: b6220100b3140cb48b24fbfe43274302, type: 2}
+    SpeakerNumber: 2
+    Text: ^It may interest you to know that people are gathering outside the building
+      Ms. Kayura explored.
+    VoiceSFX: event:/VO/GENERAL/Wolfgang/15_ByTheWay
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: 9c1bbc4700a6da54eacf243d68785112, type: 2}
+      Name: 1a
+    ExpressionNumber: 1
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: b6220100b3140cb48b24fbfe43274302, type: 2}
+    SpeakerNumber: 2
+    Text: 'We want everyone together so we can discuss what to do next... Would you
+      like to join?
+
+'
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 9f99bd6a79840274f9c76bc161eab8e3, type: 2}
+    SpeakerNumber: 0
+    Text: Always good to keep people on the same wavelength. See you there, mate!
+    VoiceSFX: event:/VO/GENERAL/Jean/32_GoodToKnow
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: be074d85e55b2ff40bc86a56a8c952d8, type: 2}
+      Name: 8a
+    ExpressionNumber: 19
+    AliasNumber: 0
+    DiaEvents:
+    - id: 2
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 1
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 959dbba31a897f244812bbffb20fd24a, type: 2}
+    SpeakerNumber: 15
+    Text: Pft...
+    VoiceSFX: event:/VO/GENERAL/Grace/14_Feh
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 2100000, guid: b39d2e4bfb8272c40b4a06b518e4339e, type: 2}
+      Name: 6b
+    ExpressionNumber: 16
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 959dbba31a897f244812bbffb20fd24a, type: 2}
+    SpeakerNumber: 15
+    Text: "That guy\u2019s a prick... Not at all what I expected..."
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: $Funny. He was every bit as dumb as his appearance.
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  - translationKey: 
+    Speaker: {fileID: 11400000, guid: 29fa96333ec8bf040b3c03e0c1e62057, type: 2}
+    SpeakerNumber: 4
+    Text: $What was the academy thinking, inviting someone like him...?
+    VoiceSFX: 
+    EnvSFX: 
+    SFX: []
+    Events: []
+    TimeToNextLine: 0
+    AutomaticLine: 0
+    Expression:
+      Sprite: {fileID: 0}
+      Name: 
+    ExpressionNumber: 0
+    AliasNumber: 0
+    DiaEvents: []
+    MusicChange: 0
+    Music: 
+    VFX: {fileID: 0}
+    VFXNumber: 0
+    ShowOptions: 0
+    DontPan: 0
+    Leave: 0
+    FlashWhite: 0
+    BlurVision: 0
+    StopEnv: 0
+    StopSFX: 0
+    PanToChar: 0
+    CharToPanNum: 0
+    CharToPan: {fileID: 0}
+    ShowDiaEvents: 0
+  Choices: []
+  StartInvestigation:
+    Enabled: 0
+    NextObjective: 1
+    NewDialogue: {fileID: 0}
+  references:
+    version: 1
+    00000000:
+      type: {class: ShakeObject, ns: DREditor.Dialogues.Events, asm: DREditor}
+      data:
+        data:
+          type: 0
+          duration: 0.5
+          strength: 2
+          vibrato: 10
+          randomness: 5
+          snapping: 0
+          fadeOut: 1
+          protag: 0
+        _ShowHelp: 0
+    00000001:
+      type: {class: CharIntro, ns: DREditor.Dialogues.Events, asm: DREditor}
+      data:
+        _ShowHelp: 0
+        cITuple:
+          charName: Jean
+    00000002:
+      type: {class: CharacterLeave, ns: DREditor.Dialogues.Events, asm: DREditor}
+      data:
+        data:
+          appear: 0
+          current: 1
+          exit: 1

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de72c192eb4fd124faf13ef1035958be, type: 3}
+  m_Name: Ch0_Bullet_Tablet
+  m_EditorClassIdentifier: 
+  Picture: {fileID: 21300000, guid: b11aabf460fa98b48a852265e6403fb1, type: 3}
+  Title: Tablet
+  Description: "The victim is Cara Koskinen, the Ultimate Teacher\u2019s Aide. She
+    was stabbed in the torso 28 times. The victim also suffered chemical burns to
+    the head. The most notable burns are to her eyes and scalp. Cause of death is
+    blood loss. Time of death is unknown."
+  LieTitle: Lie Bullet 1
+  LieDescription: 
+  tbNum: 1

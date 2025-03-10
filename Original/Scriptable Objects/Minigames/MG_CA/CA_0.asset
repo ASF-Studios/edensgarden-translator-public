@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08b6d3a0ddfb3814ea069881e729be0f, type: 3}
+  m_Name: CA_0
+  m_EditorClassIdentifier: 
+  times:
+  - difficulty: 0
+    min: 5
+    sec: 0
+  - difficulty: 1
+    min: 4
+    sec: 0
+  - difficulty: 2
+    min: 3
+    sec: 0
+  totalTime: 0
+  pages:
+  - pageSprite: {fileID: 21300000, guid: 1e576466d6b89584fa53a514a3e1bb23, type: 3}
+    stock:
+    - panelShape: {fileID: 21300000, guid: 7421b06e21bc65d4a888eceabbf7295f, type: 3}
+      panelPos: {x: 0.48, y: 1.1}
+      questionText: "\u201CWhat was the victim carrying?\u201D"
+      symbolOffset: {x: 0, y: 0}
+      symbolScale: {x: 1, y: 1}
+      flavourText: Assault Rifle
+      noOfLocks: 2
+      activeScale: {x: 1, y: 1}
+      activePosition: {x: 0, y: 0}
+      stockScale: {x: 1, y: 1}
+      stockPosition: {x: 0, y: 0}
+    - panelShape: {fileID: 21300000, guid: e8e9f9c95f7cb4b4d8b881d6b2c22b23, type: 3}
+      panelPos: {x: -2.84, y: 0}
+      questionText: "\u201CWhere did the killer hide?\u201D"
+      symbolOffset: {x: 0, y: 0}
+      symbolScale: {x: 1, y: 1}
+      flavourText: "In the janitor\u2019s closet"
+      noOfLocks: 0
+      activeScale: {x: 1, y: 1}
+      activePosition: {x: 0, y: 0}
+      stockScale: {x: 1, y: 1}
+      stockPosition: {x: 0, y: 0}
+  - pageSprite: {fileID: 21300000, guid: 5fed90904d00b134385093a79500af4c, type: 3}
+    stock:
+    - panelShape: {fileID: 21300000, guid: fd0bbeae96e00f04eaf47eee1b6bc5e1, type: 3}
+      panelPos: {x: 2.34, y: -0.88}
+      questionText: "\u201CWhat did the killer pour into the bucket?\u201D"
+      symbolOffset: {x: 0, y: 0}
+      symbolScale: {x: 1, y: 1}
+      flavourText: Bleach
+      noOfLocks: 4
+      activeScale: {x: 1, y: 1}
+      activePosition: {x: 0, y: 0}
+      stockScale: {x: 1, y: 1}
+      stockPosition: {x: 0, y: 0}
+    - panelShape: {fileID: 21300000, guid: 0b92a8a7215191245876f57ff0897c76, type: 3}
+      panelPos: {x: -3.15, y: 0.01}
+      questionText: "\u201CHow did the killer reach the door frame?\u201D"
+      symbolOffset: {x: 0, y: 0}
+      symbolScale: {x: 1, y: 1}
+      flavourText: Going up the stepladder
+      noOfLocks: 0
+      activeScale: {x: 1, y: 1}
+      activePosition: {x: 0, y: 0}
+      stockScale: {x: 1, y: 1}
+      stockPosition: {x: 0, y: 0}
+  - pageSprite: {fileID: 21300000, guid: f299c80160ec52d4391eba7423028058, type: 3}
+    stock:
+    - panelShape: {fileID: 21300000, guid: aae168ec207b2804b9f25bfc3e3e43d0, type: 3}
+      panelPos: {x: -3.06, y: -1.17}
+      questionText: "\u201CHow was the trap triggered?\u201D"
+      symbolOffset: {x: 0, y: 0}
+      symbolScale: {x: 1, y: 1}
+      flavourText: Opening the door
+      noOfLocks: 0
+      activeScale: {x: 1, y: 1}
+      activePosition: {x: 0, y: 0}
+      stockScale: {x: 1, y: 1}
+      stockPosition: {x: 0, y: 0}
+  - pageSprite: {fileID: 21300000, guid: 0720f006cd622254da2c01e7f352d3f9, type: 3}
+    stock:
+    - panelShape: {fileID: 21300000, guid: 8f20aa089b2f06d4995f29ea74793b6c, type: 3}
+      panelPos: {x: -3.16, y: 1.24}
+      questionText: "\u201CWhat did the victim do when they were stabbed?\u201D"
+      symbolOffset: {x: 0, y: 0}
+      symbolScale: {x: 1, y: 1}
+      flavourText: "Clawing at killer\u2019s neck"
+      noOfLocks: 3
+      activeScale: {x: 1, y: 1}
+      activePosition: {x: 0, y: 0}
+      stockScale: {x: 1, y: 1}
+      stockPosition: {x: 0, y: 0}
+  totalStock: 6

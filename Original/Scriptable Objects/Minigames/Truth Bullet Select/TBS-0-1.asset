@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86f2676411d9aec4c9e2ee932c7ae970, type: 3}
+  m_Name: TBS-0-1
+  m_EditorClassIdentifier: 
+  times:
+  - difficulty: 0
+    min: 1
+    sec: 30
+  - difficulty: 1
+    min: 1
+    sec: 0
+  - difficulty: 2
+    min: 0
+    sec: 30
+  chapter: 0
+  damageOnWrong: 1
+  timerMinutes: 1
+  timerSeconds: 0
+  question: What proves that the victim was able to wound the killer?
+  selections:
+  - bulletOption: {fileID: 11400000, guid: 715656b324bf4e74e8f1b06447f9ee3a, type: 2}
+    isAnswer: 0
+    wrongDialogue: {fileID: 11400000, guid: 16c0d4c1c27bc114da01d137ae1d02c2, type: 2}
+  - bulletOption: {fileID: 11400000, guid: d7c9ca1253ebd214bba8deb71b404058, type: 2}
+    isAnswer: 0
+    wrongDialogue: {fileID: 11400000, guid: 5f6077eb5fc35c047a5aff4a4753604f, type: 2}
+  - bulletOption: {fileID: 11400000, guid: 46b0fcec185c8a4409ae0ef1acdaf64f, type: 2}
+    isAnswer: 0
+    wrongDialogue: {fileID: 11400000, guid: e3c5dfbe908c20a4f8dda6bc981f09dd, type: 2}
+  - bulletOption: {fileID: 11400000, guid: 8d9a09f1728dc954d893f69bb0c4a8d4, type: 2}
+    isAnswer: 0
+    wrongDialogue: {fileID: 11400000, guid: 16c0d4c1c27bc114da01d137ae1d02c2, type: 2}
+  - bulletOption: {fileID: 11400000, guid: 7bd5cd5f4a553834cbd052a236c59365, type: 2}
+    isAnswer: 1
+    wrongDialogue: {fileID: 0}
